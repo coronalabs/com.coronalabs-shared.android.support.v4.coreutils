@@ -1,0 +1,8 @@
+
+// "metadata", "dependencies", "jars", "native", "resources", "assets"
+ext["excludeCoronaPlugin"] = true
+ext["includeCoronaPlugin"] = ["dependencies"]
+
+dependencies {
+	implementation 'com.android.support:support-core-utils:' + '28.0.+'
+}
